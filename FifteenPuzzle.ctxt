@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=FifteenPuzzle
+comment1.params=initialGrid
+comment1.target=FifteenPuzzle(int[][])
+comment1.text=\ This\ constructor\ sets\ up\ the\ grid\ using\ initialGrid,\ and\ it\ initialises\ xspace\ and\ yspace.\n\ \ initialgrid\ is\ assumed\ to\ be\ a\ legal\ position.\n
+comment2.params=
+comment2.target=FifteenPuzzle()
+comment2.text=\ This\ constructor\ sets\ up\ the\ grid\ by\ copying\ goal\ and\ then\ making\ random\ moves.\ \n\ \ It\ also\ initialises\ xspace\ and\ yspace.\n
+comment3.params=
+comment3.target=int[][]\ getGrid()
+comment3.text=\n\ Returns\ the\ grid.\n
+comment4.params=
+comment4.target=int\ getSize()
+comment4.text=\n\ Returns\ the\ size.\n
+comment5.params=x\ y
+comment5.target=boolean\ legalClick(int,\ int)
+comment5.text=\n\ Returns\ true\ iff\ x,y\ is\ on\ the\ board\ and\ adjacent\ to\ the\ space.\ \n\ Either\ x\ must\ be\ xspace\ and\ y\ must\ be\ yspace\ plus\ or\ minus\ 1,\ \n\ or\ \ \ \ \ y\ must\ be\ yspace\ and\ x\ must\ be\ xspace\ plus\ or\ minus\ 1.\n
+comment6.params=
+comment6.target=boolean\ finished()
+comment6.text=\n\ Returns\ true\ iff\ the\ puzzle\ is\ in\ the\ goal\ state.\n
+comment7.params=x\ y
+comment7.target=void\ moveTile(int,\ int)
+comment7.text=\n\ If\ x,y\ is\ a\ legal\ click\ on\ the\ board,\ swaps\ the\ tile\ at\ x,y\ with\ the\ space;\n\ otherwise\ does\ nothing.\n
+numComments=8
